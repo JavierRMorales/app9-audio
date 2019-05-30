@@ -50,8 +50,8 @@ $('#pause').click(function (){
 $('#stop').click(function (){
 	audio.pause ();
 	audio.currentTime = 0;
-	$('#pause').show();
-	$('#play').hide();
+	$('#pause').hide();
+	$('#play').show();
 	$('#duration').fadeOut(400);
 });
 
